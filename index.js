@@ -34,7 +34,7 @@
 
 // 1. LinkedLists
 class ListNode {
-  constructor(value) {
+  constructor(value = null) {
     this.value = value;
     this.next = null;
   }
